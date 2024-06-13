@@ -3,7 +3,7 @@
 ## Laboratorium: Przetwarzanie obrazów w dziedzinie przestrzennej
 
 ### Wstęp
-W ramach tego laboratorium, zostały wykonane zadania związane z przetwarzaniem obrazów w dziedzinie przestrzennej za pomocą języka programowania Python. Celem było zdobycie umiejętności wczytywania, przetwarzania, analizowania oraz filtrowania obrazów.
+W ramach tego laboratorium, zostały wykonane zadania związane z przetwarzaniem obrazów w dziedzinie przestrzennej za pomocą języka programowania Python. Celem było zdobycie umiejętności wczytywania, przetwarzania, analizowania oraz filtrowania obrazów. Do obliczeń użyliśmy biblioteki numpy. Do stworzenia interfejsu oraz rysowania wykresów użyliśmy bibliotek 'tkinter' oraz 'matplotlib'. Do przetwarzania obrazów użyliśmy biblioteki 'scikit-image'. Do tworzenia histogramów użyliśmy biblioteki 'cv2'. Linki do dokumentacji poszczególnych bibliotek znajdują się na dole tej strony.
 
 ### Plan ćwiczeń laboratoryjnych
 5. **Platforma testowa**

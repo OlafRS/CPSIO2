@@ -37,7 +37,7 @@ def plot(image, coord, direction, top_left, bottom_right, canvas_frame, exercise
             axs[0, 0].axis('off')
         elif(exercise=="6c"):
             m = 0.45
-            e = 8
+            e = 4
             image = 1 / (1 + np.float_power((m/image),e))
             axs[0, 0].imshow(image, cmap='gray')
             axs[0, 0].set_title('Zmiana dynamiki skali szarości')
@@ -114,7 +114,7 @@ def plot(image, coord, direction, top_left, bottom_right, canvas_frame, exercise
             axs[0, 0].set_title('Filtr Sobela')
             axs[0, 0].axis('off')
         elif(exercise=="11b"):
-            image = filters.laplace(image)
+            image = image + filters.laplace(image)
             axs[0, 0].imshow(image, cmap='gray')
             axs[0, 0].set_title('Laplasjan')
             axs[0, 0].axis('off')
@@ -130,15 +130,13 @@ def plot(image, coord, direction, top_left, bottom_right, canvas_frame, exercise
             axs[0, 0].set_title('Filtr High Boost')
             axs[0, 0].axis('off')
         elif(exercise=="12"):
-            #imageA = image
-            imageB = filters.laplace(image)
-            imageC = image + imageB
+            imageA = image
+            imageB = filters.laplace(imageA)
+            imageC = imageA + imageB
             imageD = filters.sobel(imageC)
-            #footprint = morphology.rectangle(5,5)
-            #imageE = filters.rank.mean(imageD, footprint = footprint)
             imageE = filters.gaussian(imageD)
-            imageF = imageE * image
-            imageG = image + imageF
+            imageF = imageE * imageA
+            imageG = imageA + imageF
             c = 1
             gamma = 0.5
             imageG = c * np.float_power(image,gamma)

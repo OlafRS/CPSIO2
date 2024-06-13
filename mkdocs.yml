@@ -44,3 +44,11 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Zadanie 5: ex_5.md
+  - Zadanie 6: ex_6.md
+  - Zadanie 7: ex_7.md
+  - Zadanie 8: ex_8.md
+  - Zadanie 9: ex_9.md
+  - Zadanie 10: ex_10.md
+  - Zadanie 11: ex_11.md
+  - Zadanie 12: ex_12.md
