@@ -52,8 +52,7 @@ Obraz: hidden-symbols.tif
 
 **Zadania:**
 1. Zbadaj skuteczność redukcji szumu typu „sól i pieprz” za pomocą  
-- liniowego filtra uśredniającego z kwadratową maską, rozpoczynając od maski
-rozmiaru 3 × 3.  
+- liniowego filtra uśredniającego z kwadratową maską, rozpoczynając od maski rozmiaru 3 × 3.  
 - nieliniowego filtra medianowego  
 - filtrów minimum i maksimum.  
 Dane: cboard_pepper_only.tif, cboard_salt_only.tif, cboard_salt_pepper.tif  
@@ -69,7 +68,7 @@ Dane: circuitmask.tif, testpat1.png
 - Zaobserwuj działanie Laplasjanu do wyostrzania szczegółów.  
 Dane: blurry-moon.tif  
 - Zbadaj działanie filtrów typu „unsharp masking” i „high boost”.  
-Dane: text-dipxe-blurred.tif
+Dane: text-dipxe-blurred.tif  
 
 #### Ćwiczenie 12: Poprawa jakości poprzez wieloetapowe przetwarzanie
 
